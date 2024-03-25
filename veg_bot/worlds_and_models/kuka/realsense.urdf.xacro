@@ -12,7 +12,7 @@
             <origin xyz="0 0 0" rpy="0 0 1.57"/>
 
             <geometry>
-                <mesh filename="file://$(find start_creating_robots)/worlds_and_models/krytn/meshes/realsense.dae">
+                <mesh filename="file://$(find veg_bot)/worlds_and_models/kuka/meshes/realsense.dae">
                     <submesh>
                         <name>RealSense</name>
                         <center>false</center>

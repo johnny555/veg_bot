@@ -2,7 +2,7 @@
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
   <xacro:include filename="$(find veg_bot)/worlds_and_models/kuka/common_constants.xacro"/>
   <xacro:include filename="$(find veg_bot)/worlds_and_models/kuka/common_materials.xacro"/>
-  <xacro:include filename="$(find start_creating_robots)/worlds_and_models/krytn/inertial.xacro" />
+  <xacro:include filename="$(find krytn)/robot_description/magni/inertial.xacro" />
 
   <xacro:macro name="link_weight">
     <xacro:sphere_inertial radius="1" mass="2" />
